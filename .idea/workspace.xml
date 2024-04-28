@@ -5,32 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1531db06-35b9-4bcb-8911-ae97cca45e8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-common/src/main/java/com/le/example/common/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-common/src/main/java/com/le/example/common/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-consumer/src/main/java/com/le/example/consumer/EasyConsumerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-consumer/src/main/java/com/le/example/consumer/UserServiceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-provicer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-provicer/src/main/java/com/le/example/provider/EasyProviderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example-provicer/src/main/java/com/le/example/provider/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/le-rpc-easy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/le-rpc-easy/src/main/java/com/le/lerpc/model/RpcRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/le-rpc-easy/src/main/java/com/le/lerpc/model/RpcResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/le-rpc-easy/src/main/java/com/le/lerpc/proxy/ServiceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/le-rpc-easy/src/main/java/com/le/lerpc/proxy/ServiceProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/le-rpc-easy/src/main/java/com/le/lerpc/registry/LocalRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/le-rpc-easy/src/main/java/com/le/lerpc/serializer/JdkSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/le-rpc-easy/src/main/java/com/le/lerpc/serializer/Serializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/le-rpc-easy/src/main/java/com/le/lerpc/server/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/le-rpc-easy/src/main/java/com/le/lerpc/server/HttpServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/le-rpc-easy/src/main/java/com/le/lerpc/server/VertxHttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-consumer/src/main/java/com/le/example/consumer/ConsumerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-provicer/src/main/java/com/le/example/provider/ProviderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le-rpc-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le-rpc-core/src/main/java/com/le/lerpc/RpcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le-rpc-core/src/main/java/com/le/lerpc/config/RpcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le-rpc-core/src/main/java/com/le/lerpc/constant/RpcConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le-rpc-core/src/main/java/com/le/lerpc/model/RpcRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le-rpc-core/src/main/java/com/le/lerpc/model/RpcResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le-rpc-core/src/main/java/com/le/lerpc/proxy/ServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le-rpc-core/src/main/java/com/le/lerpc/proxy/ServiceProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le-rpc-core/src/main/java/com/le/lerpc/registry/LocalRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le-rpc-core/src/main/java/com/le/lerpc/serializer/JdkSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le-rpc-core/src/main/java/com/le/lerpc/serializer/Serializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le-rpc-core/src/main/java/com/le/lerpc/server/HttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le-rpc-core/src/main/java/com/le/lerpc/server/HttpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le-rpc-core/src/main/java/com/le/lerpc/server/VertxHttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/le-rpc-core/src/main/java/com/le/lerpc/utils/ConfigUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example-provicer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example-provicer/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +51,7 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\Maven\repository" />
         <option name="mavenHome" value="D:/Maven/apache-maven-3.8.3" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="C:\Users\孟乐航\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -77,11 +74,33 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/Maven/repository",
+    "last_opened_file_path": "F:/final_jee/le-rpc/le-rpc-core",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3264368",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EasyConsumerExample">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\final_jee\le-rpc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProviderExample">
+    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.le.example.consumer.ConsumerExample" />
+      <module name="example-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.le.example.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EasyConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.le.example.consumer.EasyConsumerExample" />
       <module name="example-consumer" />
@@ -108,9 +127,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProviderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.le.example.provider.ProviderExample" />
+      <module name="example-provicer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.le.example.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProviderExample" />
         <item itemvalue="Application.EasyConsumerExample" />
+        <item itemvalue="Application.ConsumerExample" />
         <item itemvalue="Application.EasyProviderExample" />
       </list>
     </recent_temporary>
@@ -123,12 +157,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714124577295</updated>
-      <workItem from="1714124579660" duration="13317000" />
+      <workItem from="1714124579660" duration="18671000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
