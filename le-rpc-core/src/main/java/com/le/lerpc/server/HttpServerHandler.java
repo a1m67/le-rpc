@@ -1,10 +1,12 @@
 package com.le.lerpc.server;
 
+import com.le.lerpc.RpcApplication;
 import com.le.lerpc.model.RpcRequest;
 import com.le.lerpc.model.RpcResponse;
 import com.le.lerpc.registry.LocalRegistry;
 import com.le.lerpc.serializer.JdkSerializer;
 import com.le.lerpc.serializer.Serializer;
+import com.le.lerpc.serializer.SerializerFactory;
 import io.vertx.core.Handler;
 import io.vertx.core.buffer.Buffer;
 import io.vertx.core.http.HttpServerRequest;
@@ -26,8 +28,7 @@ public class HttpServerHandler implements Handler<HttpServerRequest> {
     @Override
     public void handle(HttpServerRequest request) {
         //执行序列化器
-        final Serializer serializer = new JdkSerializer();
-
+        final Serializer serializer = SerializerFactory.getInstance(RpcApplication.getRpcConfig().getSerializer());
         //记录日志
         System.out.println("Received request: " + request.method() + " " + request.uri());
         //todo 1.反序列化请求为对象，并从请求对象中获取参数。

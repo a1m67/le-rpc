@@ -1,0 +1,2 @@
+jdk=com.le.lerpc.serializer.JdkSerializer
+hessian=com.le.lerpc.serializer.HessianSerializer

@@ -1,0 +1,2 @@
+json=com.le.lerpc.serializer.JsonSerializer
+kryo=com.le.lerpc.serializer.KryoSerializer
